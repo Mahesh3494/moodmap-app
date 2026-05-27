@@ -1,27 +1,31 @@
-## Devvit React Starter
+# MoodMap 🗺️
+**Real-time community health dashboard for Reddit moderators**
 
-A starter to build web applications on Reddit's developer platform
+Built for the Reddit Mod Tools Hackathon 2026
 
-- [Devvit](https://developers.reddit.com/): A way to build and deploy immersive games on Reddit
-- [Vite](https://vite.dev/): For compiling the webView
-- [React](https://react.dev/): For UI
-- [Hono](https://hono.dev/): For backend logic
-- [Tailwind](https://tailwindcss.com/): For styles
-- [TypeScript](https://www.typescriptlang.org/): For type safety
+## What it does
+MoodMap automatically monitors your subreddit's health by scoring every comment for toxicity. Moderators get a live dashboard showing:
 
-## Getting Started
+- 🎯 **Community Health Score** (0-100)
+- 📊 **24-hour toxicity trend chart**
+- 🚨 **Recent alerts** with direct links to flagged comments
+- 👤 **Top Offenders leaderboard**
+- 📈 **Per-user toxicity tracking**
 
-> Make sure you have Node 22 downloaded on your machine before running!
+## How to install
+1. Go to [developers.reddit.com/apps/moodmap-app](https://developers.reddit.com/apps/moodmap-app)
+2. Click **"Add to community"**
+3. Select your subreddit
+4. Click **"📊 Open MoodMap Dashboard"** from the ··· menu
 
-1. Run `npm create devvit@latest --template=react`
-2. Go through the installation wizard. You will need to create a Reddit account and connect it to Reddit developers
-3. Copy the command on the success page into your terminal
+## Tech Stack
+- TypeScript
+- Devvit SDK (React web template)
+- Hono server
+- Redis
 
-## Commands
+## Demo
+[View on Devpost](https://devpost.com/software/moodmap)
 
-- `npm run dev`: Starts a development server where you can develop your application live on Reddit.
-- `npm run build`: Builds your client and server projects
-- `npm run deploy`: Uploads a new version of your app
-- `npm run launch`: Publishes your app for review
-- `npm run login`: Logs your CLI into Reddit
-- `npm run type-check`: Type checks, lints, and prettifies your app
+## Developer
+Built by u/stackvoidx
