@@ -24,8 +24,5 @@ MoodMap automatically monitors your subreddit's health by scoring every comment 
 - Hono server
 - Redis
 
-## Demo
-[View on Devpost](https://devpost.com/software/moodmap)
-
 ## Developer
 Built by u/stackvoidx
