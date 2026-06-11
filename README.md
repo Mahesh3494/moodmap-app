@@ -1,8 +1,6 @@
 # MoodMap 🗺️
 **Real-time community health dashboard for Reddit moderators**
 
-Built for the Reddit Mod Tools Hackathon 2026
-
 ## What it does
 MoodMap automatically monitors your subreddit's health by scoring every comment for toxicity. Moderators get a live dashboard showing:
 
